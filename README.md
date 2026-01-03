@@ -2,7 +2,7 @@
 
 ## Overview
 
-**GrowthSetHub** is a  that allows users to start and upgrade businesses, invest in stocks and real estate, and track their net worth over time. The platform provides a modern, interactive UI for an engaging experience.
+**GrowthSetHub** is a gamified Business Simulator that allows users to start and upgrade businesses, invest in stocks and real estate, and track their net worth over time. The platform provides a modern, interactive UI for an engaging experience.
 
 ### Key Features
 
