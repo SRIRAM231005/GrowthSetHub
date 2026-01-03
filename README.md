@@ -1,82 +1,56 @@
-# GrowSetHub - Business Simulator
+# GrowthSetHub - Business Simulator
 
-## 1. Overview
+## Overview
 
-**GrowthSetHub** is a full-stack business simulation game where users can start businesses, invest in stocks and real estate, and earn income over time. It’s designed with a fun and intuitive UI, simulating real-world money management strategies with a gamified approach.
+**GrowthSetHub** is a  that allows users to start and upgrade businesses, invest in stocks and real estate, and track their net worth over time. The platform provides a modern, interactive UI for an engaging experience.
+
+### Key Features
+
+- User authentication and personalized profiles  
+- Start and upgrade businesses  
+- Invest in real estate and stocks  
+- Live balance updates via backend cron jobs  
+- Real-time updates using WebSockets  
 
 ---
 
-## 3. Features & Screenshots
+## Demo Screenshots
 
-### Core Features:
-
-* 🔐 **User Authentication**
-* 💼 **Start & Upgrade Businesses**
-* 🏠 **Invest in Real Estate & Stocks**
-* 💰 **Live Balance Updates Every Minute** (via backend cron jobs)
-* 📊 **Modern UI** with interactive cards and gradient visuals
-* 🔁 **WebSocket integration** for real-time data (planned/future scope)
-* 📈 **Stat Tracking**: Business growth, assets owned, and net worth
-
-### Screenshots:
-
-#### Stocks Graph
+**Stocks Graph**  
 <img src="./public/images/stocks.png" width="600" />
 
-#### Shares Market
-<img src="./public/images/shares.png" width="600" />
-
-#### Real Estate Market
+**Real Estate Market**  
 <img src="./public/images/realestate.png" width="600" />
-<img src="./public/images/myproperty.jpeg" width="600" />
 
-#### My Businesses
-<img src="./public/images/business.jpeg" width="600" />
-
-#### IT Business
-<img src="./public/images/IT.png" width="600" />
-
-#### Bank Business
-<img src="./public/images/bank2.jpeg" width="600" />
-
-#### Balance Card
-<img src="./public/images/cardbalance.png" width="600" />
-
-#### Profile Page
+**Profile Page**  
 <img src="./public/images/profile.png" width="600" />
-
-#### Leaderboard
-<img src="./public/images/leaderboard.jpeg" width="600" />
-
-
 
 ---
 
-## 4. Tech Stack
+## Tech Stack
 
-### Frontend
+**Frontend:** HTML, CSS, JavaScript  
+**Backend:** Node.js, Express.js, MySQL, Cron Jobs, WebSockets, RESTful APIs  
 
-* HTML
-* CSS
-* JavaScript
+---
+
+## Schema Diagram
+
+![Schema Diagram](./public/images/schemadiagram.jpg)
+
+---
+
+## Basic Setup
 
 ### Backend
 
-* Node.js
-* Express.js
-* MySQL
-* Cron Job (for scheduled balance updates)
-* WebSockets
-* RESTful APIs
+```bash
+# Clone the repo
+git clone https://github.com/SRIRAM231005/GrowthSetHub.git
+cd GrowSetHub/backend
 
----
+# Install dependencies
+npm install
 
-## 5. Database Schema 
-
-### ER Diagram
-<img src="./public/images/erdiagram.jpg" alt="ERDiagram" width="600" />
-
-### Schema Diagram
-<img src="./public/images/schemadiagram.jpg" alt="SchemaDiagram" width="600" />
-
----
+# Start backend server
+npm start
